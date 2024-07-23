@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Início", href: "#" },
-  { label: "Sobre", href: "#" },
-  { label: "Orçamento", href: "#" },
-  { label: "Equipe", href: "#" },
+  { label: "Início", href: "inicio" },
+  { label: "Ferramentas", href: "ferramentas" },
+  { label: "Sobre", href: "sobre" },
+  { label: "Contato", href: "contato" },
 ];
 
 export const testimonials = [
@@ -61,60 +61,60 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "CRM & ERP",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Gerenciamos seus dados com uma interface amigável e intuitiva. Contamos com dezenas de funções",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Soluções em Laravel",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Desenvolvemos aplicações Laravel com eficiência e praticidade. Atendendo os requisitos do seu projeto.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "WordPress",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Criamos sites WordPress modernos e otimizados facilmente. Utilizando ferramentas como Elementor e WPBakery.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "SAP",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Implementamos soluções SAP para otimizar seus processos empresariais.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Aplicações Mobile",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Desenvolvemos apps móveis funcionais e atrativos para seus usuários. Utilizando React Native e Flutter.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Landing Pages",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Desenvolvemos landing pages eficazes para captar mais clientes e ter sucesso na venda do seu produto.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Atualizações semanais",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
-    title: "Review code without worry",
+    title: "Revisões pré-publicação",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Contato direto com o desenvolvedor",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
-    title: "Share work in minutes",
+    title: "Demandas de emergência",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
