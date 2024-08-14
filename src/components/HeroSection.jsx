@@ -5,7 +5,7 @@ import logo from '../assets/DEV.png';
 
 const HeroSection = () => {
   return (
-    <div id="inicio" className="flex flex-col items-center mt-6 lg:mt-10">
+    <div id="inicio"  className="flex flex-col items-center mt-6 lg:mt-10">
         <div className='flex'>
             {/* <span className="text-transparent lg:text-9xl bg-gradient-to-r from-blue-300 to-blue-500 bg-clip-text">
                 W

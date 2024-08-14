@@ -14,9 +14,9 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Início", href: "inicio" },
-  { label: "Ferramentas", href: "ferramentas" },
-  { label: "Sobre", href: "sobre" },
-  { label: "Contato", href: "contato" },
+  { label: "Serviços", href: "ferramentas" },
+  { label: "Workflow", href: "sobre" },
+  // { label: "Contato", href: "contato" },
 ];
 
 export const testimonials = [
