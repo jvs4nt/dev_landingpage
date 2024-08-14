@@ -101,22 +101,22 @@ export const checklistItems = [
   {
     title: "Atualizações semanais",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Acompanhe a evolução do seu produto de forma transparente e ágil.",
   },
   {
     title: "Revisões pré-publicação",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "As publicações são feitas de forma segura e sem margem para erros.",
   },
   {
     title: "Contato direto com o desenvolvedor",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Esteja por dentro do que está acontecendo por baixo dos panos.",
   },
   {
     title: "Demandas de emergência",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Horas reservadas para atender demandas urgentes e imprevistos.",
   },
 ];
 
