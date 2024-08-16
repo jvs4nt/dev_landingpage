@@ -34,6 +34,8 @@ app.post('/api/email', async (req, res) => {
   };
 
   try {
+    console.log(process.env.REACT_APP_API_URL);
+    
     console.log('Tentando enviar email...');
     await transport.sendMail(mailOptions);
     res.status(200).send({ message: 'Email sent successfully' });

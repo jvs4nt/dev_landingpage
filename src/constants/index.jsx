@@ -63,7 +63,7 @@ export const features = [
     icon: <BotMessageSquare />,
     text: "CRM & ERP",
     description:
-      "Gerenciamos seus dados com uma interface amigável e intuitiva. Contamos com dezenas de funções",
+      "Gerenciamos seus dados com uma interface amigável e intuitiva. Contamos com dezenas de funções.",
   },
   {
     icon: <Fingerprint />,
@@ -81,7 +81,7 @@ export const features = [
     icon: <BatteryCharging />,
     text: "SAP",
     description:
-      "Implementamos soluções SAP para otimizar seus processos empresariais.",
+      "Consutoria em soluções SAP para otimizar seus processos empresariais.",
   },
   {
     icon: <PlugZap />,

@@ -29,8 +29,8 @@ const Navbar = () => {
                     {/* <a href="#" className="px-3 py-2 border rounded-md vorder">
                         Botao
                     </a> */}
-                    <Link to="contato" smooth={true} duration={500} className="px-3 py-2 rounded-md cursor-pointer bg-gradient-to-r from-blue-500 to-blue-800">
-                        Contratar
+                    <Link to="contato" smooth={true} duration={500} className="px-3 py-2 rounded-md cursor-pointer bg-gradient-to-r from-blue-500 to-blue-800 hover:opacity-70 transition-all ">
+                        Entrar em contato
                     </Link>
                 </div>
                 <div className="flex-col justify-end lg:hidden md:flex">
@@ -52,7 +52,7 @@ const Navbar = () => {
                         {/* <a href="#" className="px-3 py-2 border rounded-md">
                             Botao
                         </a> */}
-                        <a href="#contato" className="px-3 py-2 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">Contratar</a>
+                        <a href="#contato" className="px-3 py-2 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">Entrar em contato</a>
                     </div>
                 </div>
             )}

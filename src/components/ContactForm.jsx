@@ -52,7 +52,7 @@ const ContactForm = () => {
         <form onSubmit={handleSubmit} className="p-10 mx-auto border border-neutral-700 rounded-xl">
           <div className="mb-6">
             <label htmlFor="email" className="block mb-2 text-lg text-gray-400">
-              Email
+              Email *
             </label>
             <input
               type="email"
@@ -66,7 +66,7 @@ const ContactForm = () => {
           </div>
           <div className="mb-6">
             <label htmlFor="name" className="block mb-2 text-lg text-gray-400">
-              Nome (ou Nome da Empresa)
+              Nome ou Empresa *
             </label>
             <input
               type="text"
@@ -80,7 +80,7 @@ const ContactForm = () => {
           </div>
           <div className="mb-6">
             <label htmlFor="phone" className="block mb-2 text-lg text-gray-400">
-              Número de Telefone (opcional)
+              Telefone ou WhatsApp
             </label>
             <input
               type="tel"
@@ -93,9 +93,9 @@ const ContactForm = () => {
           </div>
           <div className="mb-6">
             <label htmlFor="subject" className="block mb-2 text-lg text-gray-400">
-              Assunto
+              Assunto *
             </label>
-            <textarea
+            <input
               id="subject"
               name="subject"
               value={formData.subject}
@@ -106,7 +106,7 @@ const ContactForm = () => {
           </div>
           <div className="mb-6">
             <label htmlFor="message" className="block mb-2 text-lg text-gray-400">
-              Mensagem
+              Mensagem *
             </label>
             <textarea
               id="message"
@@ -132,7 +132,7 @@ const ContactForm = () => {
           </div>
         )}
       </div>
-      <div className="flex justify-center w-full pt-10 cursor-pointer">
+      <div className="flex justify-center w-full pt-10 cursor-pointer mb-10">
         <Link 
           to="inicio"
           smooth={true}

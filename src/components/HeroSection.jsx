@@ -15,15 +15,15 @@ const HeroSection = () => {
                 LFPACK
             </span> */}
             <span className="text-transparent lg:text-9xl md:text-6xl text-6xl bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text">
-                WOLFPACK
+                DEV
             </span> 
         </div>
-            <h1 className="lg:text-4xl tracking-wide text-center text-gray-400">
-            technology. 
+            <h1 className="lg:text-2xl tracking-wide text-center text-gray-600">
+            Transformando ideias em códigos. 
             
         </h1>
         <p className="max-w-4xl mt-10 lg:text-lg md:text-md sm:text-sm text-center text-neutral-500">
-        Na Wolfpack, acreditamos que cada projeto é uma parceria. Trabalhamos lado a lado com nossos clientes para garantir que suas visões sejam concretizadas com excelência e inovação. Seja qual for o desafio, estamos prontos para superá-lo e levar seu negócio ao próximo nível.
+        Na <span className='text-transparent  bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text'>DEV</span>, acreditamos que cada projeto é uma parceria. Trabalhamos lado a lado com nossos clientes para garantir que suas visões sejam concretizadas com excelência e inovação. Seja qual for o desafio, estamos prontos para superá-lo e levar seu negócio ao próximo nível.
         </p>
         {/* <div className="flex justify-center my-10">
             <a href="" className="px-4 py-3 mx-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">
