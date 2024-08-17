@@ -22,7 +22,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/api/email', {
+      const response = await fetch('https://localhost/api/email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -42,6 +42,7 @@ const ContactForm = () => {
       setResponseMessage('Erro ao enviar o e-mail. Tente novamente.');
     }
   };
+
 
   return (
     <>

@@ -8,7 +8,7 @@ import Workflow from "./components/Workflow"
 import ContactForm from "./components/ContactForm"
 
 const App = () => {
-  console.log(process.env.REACT_APP_API_URL);
+  console.log(import.meta.env.VITE_APP_ORIGIN);
   
   return (
     <>
