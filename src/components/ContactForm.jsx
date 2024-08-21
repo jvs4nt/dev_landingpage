@@ -46,12 +46,12 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="mt-20 w-full h-screen relative overflow-hidden" id="contato">
+      <div className="box-contact mt-20 w-full relative overflow-hidden" id="contato">
         <h2 className="my-8 text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl ">
           Entre em contato
         </h2>
         
-        <iframe className=" w-full h-full" src="https://crm.desenvolvedores.dev.br/forms/wtl/27473ef1085125bd911f9b474a734558" frameborder="0" sandbox="allow-top-navigation allow-forms allow-scripts allow-same-origin allow-popups" allowfullscreen></iframe>
+        <iframe className="h-full w-full" src="https://crm.desenvolvedores.dev.br/forms/wtl/27473ef1085125bd911f9b474a734558" frameborder="0" sandbox="allow-top-navigation allow-forms allow-scripts allow-same-origin allow-popups" allowfullscreen></iframe>
         {/* {responseMessage && (
           <div className="mt-4 text-center text-lg text-gray-400">
             {responseMessage}
