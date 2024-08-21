@@ -4,7 +4,7 @@ const FeatureSection = () => {
     <div id="ferramentas" className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
         <div className="text-center">
             <span className="h-6 px-2 py-1 text-sm font-medium text-blue-500 uppercase rounded-full bg-neutral-900">
-                ferramentas
+                serviços
             </span>
             <h2 className="mt-10 text-3xl sm:text-5xl lg:text-6xl lg:mt-20 tracking wide">
                 Sólida construção do

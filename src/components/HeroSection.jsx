@@ -1,11 +1,11 @@
 import video1 from '../assets/video1.mp4'
 import video2 from '../assets/video2.mp4'
-import logo from '../assets/DEV.png';
+import logo from '../assets/simbolo.png';
 
 
 const HeroSection = () => {
   return (
-    <div id="inicio"  className="flex flex-col items-center mt-6 lg:mt-10">
+    <div id="inicio"  className="flex flex-col items-center lg:mt-10">
         <div className='flex'>
             {/* <span className="text-transparent lg:text-9xl bg-gradient-to-r from-blue-300 to-blue-500 bg-clip-text">
                 W
@@ -14,13 +14,13 @@ const HeroSection = () => {
             <span className="text-transparent lg:text-9xl bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text">
                 LFPACK
             </span> */}
-            <span className="text-transparent lg:text-9xl md:text-6xl text-6xl bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text">
+            <img className="w-96 h-96 mb-10" src={logo} alt="logo" />
+            {/* <span className="text-transparent lg:text-9xl md:text-6xl text-6xl bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text">
                 DEV
-            </span> 
+            </span>  */}
         </div>
-            <h1 className="lg:text-2xl tracking-wide text-center text-gray-600">
-            Transformando ideias em códigos. 
-            
+        <h1 className="lg:text-2xl tracking-wide text-center text-gray-600">
+            Transformando ideias em código. 
         </h1>
         <p className="max-w-4xl mt-10 lg:text-lg md:text-md sm:text-sm text-center text-neutral-500">
         Na <span className='text-transparent  bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text'>DEV</span>, acreditamos que cada projeto é uma parceria. Trabalhamos lado a lado com nossos clientes para garantir que suas visões sejam concretizadas com excelência e inovação. Seja qual for o desafio, estamos prontos para superá-lo e levar seu negócio ao próximo nível.

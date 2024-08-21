@@ -1,5 +1,5 @@
 import { Menu, X } from "lucide-react";
-import logo from '../assets/DEV.png';
+import logo from '../assets/logo-07.png';
 import { navItems } from '../constants';
 import { useState } from "react";
 import { Link } from "react-scroll";
@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="container relative px-4 mx-auto text-sm">
             <div className="flex items-center justify-between">
                 <div className="flex items-center flex-shrink-0">
-                    <img className="w-20 h-20 mr-2" src={logo} alt="logo" />
+                    <img className="w-28 h-12 mr-2" src={logo} alt="logo" />
                     <span className="text-xl tracking-tight"></span>
                 </div>
                 <ul className="hidden space-x-12 lg:flex ml-14">
