@@ -1,5 +1,5 @@
 import { Menu, X } from "lucide-react";
-import logo from '../assets/logo-07.png';
+import logo from '../assets/dev-logomarca-ajustada0.png';
 import { navItems } from '../constants';
 import { useState } from "react";
 import { Link } from "react-scroll";
