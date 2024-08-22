@@ -7,3 +7,24 @@
   font-family: 'Poppins', sans-serif;
   color-scheme: dark;
 }
+
+
+
+@media (min-width: 1px) and (max-width: 640px) {
+  .box-contact {
+    height: 1180px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1039px) {
+  .box-contact {
+    height: 1050px;
+  }
+}
+
+@media (min-width: 1040px) and (max-width: 100000px) {
+  .box-contact {
+    height: 850px;
+  }
+}
+
