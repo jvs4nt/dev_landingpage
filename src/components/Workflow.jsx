@@ -4,7 +4,7 @@ import { checklistItems } from "../constants";
 
 const Workflow = () => {
   return (
-    <div id="sobre" className="mt-20">
+    <div id="sobre" className="mt-20 px-4">
       <h2 className="mt-6 text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl">
         Acompanhe o{" "}
         <span className="text-transparent bg-gradient-to-r from-blue-500 to-blue-800 bg-clip-text">
