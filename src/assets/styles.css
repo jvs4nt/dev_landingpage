@@ -1,0 +1,43 @@
+.animated-gradient-text {
+    background: linear-gradient(90deg, #97999b, #0850d9, #97999b);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientMove 3s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*.logo-animated {*/
+/*    position: relative;*/
+/*    background: linear-gradient(90deg, #00C6FF, #0072FF, #00C6FF);*/
+/*    background-size: 200%;*/
+/*    -webkit-background-clip: text;*/
+/*    background-clip: border-box;*/
+/*    animation: gradientMoveLogo 5s ease infinite;*/
+/*    mask-image: url('../assets/simbolo.png'); !* Ajuste conforme a localização da imagem *!*/
+/*    mask-size: cover;*/
+/*}*/
+
+/*@keyframes gradientMoveLogo {*/
+/*    0% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*}*/

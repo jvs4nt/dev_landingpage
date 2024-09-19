@@ -40,18 +40,18 @@ const Navbar = () => {
                 </div>
             </div>
             {mobileDrawerOpen && (
-                <div className="fixed right-0 z-20 flex flex-col items-center justify-center w-full p-12 bg-neutral-900 lg:hidden">
-                    <ul>
+                <div className="sticky right-0 z-20 flex flex-col items-center text-center justify-center w-full p-12 backdrop-blur-lg lg:hidden">
+                        <ul>
                         {navItems.map((item,index) => (
                             <li key={index} className="py-4">
-                                <Link className="transition-all cursor-pointer hover:text-gray-400" to={item.href} smooth={true} duration={500}>{item.label}</Link>    
+                                <Link className="transition-all cursor-pointer hover:text-gray-400" to={item.href} smooth={true} duration={500}>{item.label}</Link>
                             </li>
                         ))}
                     </ul>
                     <div className="flex mt-6 space-x-6">
-                        {/* <a href="#" className="px-3 py-2 border rounded-md">
-                            Botao
-                        </a> */}
+                        {/* <a href="#" className="px-3 py-2 border rounded-md">*/}
+                        {/*    Botao*/}
+                        {/*</a> */}
                         <a href="#contato" className="px-3 py-2 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">Entrar em contato</a>
                     </div>
                 </div>
