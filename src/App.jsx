@@ -9,8 +9,6 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 AOS.init();
 
-
-
 const App = () => {
 
   console.log(import.meta.env.VITE_APP_ORIGIN);
