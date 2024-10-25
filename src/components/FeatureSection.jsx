@@ -6,7 +6,7 @@ const FeatureSection = () => {
             {/*<span className="h-6 px-2 py-1 text-sm font-medium text-blue-500 uppercase rounded-full bg-neutral-900">*/}
             {/*    serviços*/}
             {/*</span>*/}
-            <h2 className="mt-10 text-3xl sm:text-5xl lg:text-6xl lg:mt-20 tracking wide" data-aos="zoom-in-up">
+            <h2 className=" mb-24 text-3xl sm:text-5xl lg:text-6xl lg:mt-20 tracking wide" data-aos="zoom-in-up">
                 Sólida construção do
                 <span className="text-transparent bg-gradient-to-r from-blue-500 to-blue-800 bg-clip-text">
                     {" "}seu projeto

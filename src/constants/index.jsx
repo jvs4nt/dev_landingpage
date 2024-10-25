@@ -1,4 +1,4 @@
-import { BotMessageSquare } from "lucide-react";
+import { Bolt, Building, Code, Database, Globe, MonitorSmartphone, Shield, Smartphone } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
@@ -60,40 +60,40 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "CRM & ERP",
+    icon: <Building />,
+    text: "Sistemas de Gestão",
     description:
-      "Gerenciamos seus dados com uma interface amigável e intuitiva. Contamos com dezenas de funções.",
+      "Desenvolvemos sistemas de gestão personalizados para atender às necessidades específicas da sua empresa.",
   },
   {
-    icon: <Fingerprint />,
+    icon: <Code />,
     text: "Soluções em Laravel",
     description:
       "Desenvolvemos aplicações Laravel com eficiência e praticidade. Atendendo os requisitos do seu projeto.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "WordPress",
+    icon: <Globe />,
+    text: "Sistemas Web",
     description:
-      "Criamos sites WordPress modernos e otimizados facilmente. Utilizando ferramentas como Elementor e WPBakery.",
+      "Desenvolvemos sistemas web responsivos e intuitivos para atender às necessidades do seu negócio.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "SAP",
+    icon: <Database />,
+    text: "Infraestrutura de TI",
     description:
-      "Consutoria em soluções SAP para otimizar seus processos empresariais.",
+      "Oferecemos soluções de infraestrutura de TI para garantir a segurança e o desempenho do seu negócio.",
   },
   {
-    icon: <PlugZap />,
+    icon: <Smartphone />,
     text: "Aplicações Mobile",
     description:
       "Desenvolvemos apps móveis funcionais e atrativos para seus usuários. Utilizando React Native e Flutter.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Landing Pages",
+    icon: <Shield />,
+    text: "Cibersegurança",
     description:
-      "Desenvolvemos landing pages eficazes para captar mais clientes e ter sucesso na venda do seu produto.",
+      "Protegemos seus dados e informações com soluções de segurança cibernética avançadas.",
   },
 ];
 
